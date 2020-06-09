@@ -2,7 +2,7 @@ namespace Aula13Uber
 {
     public class Pagamento
     {
-        // private DateTime data;
+        //Date date = Date.date;
         private string status;
     }
 }

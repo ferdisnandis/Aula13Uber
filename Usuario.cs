@@ -4,7 +4,7 @@ namespace Aula13Uber
     {
         public string Nome { get;set; }
         private string login = "fernanda@gmail.com";
-        public string senha = "fernanda1234";
+        private string senha = "fernanda1234";
         public string Foto { get; set; }
         public string LocalizacaoAtual { get;set; }
         public string TokenLogin { get; set; }

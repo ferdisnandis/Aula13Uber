@@ -2,9 +2,20 @@ namespace Aula13Uber
 {
     public class Passageiro : Usuario
     {
-        public string ProcurarMotorista(){
+
+        /// <summary>
+        /// Localizar motorista
+        /// </summary>
+        /// <returns>Mensagem de procura</returns>
+        public string procurarMotorista(){
             return "Procurando mostoristas disponíveis...";
         }
+
+        /// <summary>
+        /// Pagamento
+        /// </summary>
+        /// <param name="statusCorrida">Finalizada ou não</param>
+        /// <returns>Confirmação de pagamento</returns>
         public string Pagar(string statusCorrida){
 
             if(statusCorrida == "Finalizada"){
@@ -13,5 +24,5 @@ namespace Aula13Uber
 
             return "Pagamento pendente pois a corrida não foi finalizada";
         }
+        }
     }
-}
