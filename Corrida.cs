@@ -4,9 +4,9 @@ namespace Aula13Uber
     {
         public string localInicio;
         public string localChegada;
-        private string statusCorrida;
-        private string motorista;
-        private string passageiro;
+        private string statusCorrida = "Iniciada/Finalizada";
+        private string motorista = "Wagner";
+        private string passageiro = "Fernanda";
 
 
         /// <summary>

@@ -1,3 +1,5 @@
+using System;
+
 namespace Aula13Uber
 {
     public class Passageiro : Usuario
@@ -20,9 +22,9 @@ namespace Aula13Uber
 
             if(statusCorrida == "Finalizada"){
                 return "Pagamento efetuado";
-            }
-
-            return "Pagamento pendente pois a corrida não foi finalizada";
+            }else{
+                return"Pagamento pendente pois a corrida não foi finalizada";
+        }
         }
         }
     }

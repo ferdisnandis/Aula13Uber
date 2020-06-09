@@ -2,21 +2,17 @@ namespace Aula13Uber
 {
     public class Conta
     {
-        private string agencia;
-        private string conta;
+        private string agencia = "2296-7";
+        private string conta = "7789-2";
 
-        /// <summary>
-        /// Adicionar uma nova conta
-        /// </summary>
-        /// <returns>Dados da nova conta</returns>
-        public string cadastrarConta(){
-            return $"Nova conta\nAgencia {agencia}\nConta {conta}";
+
+        //Adicionar uma nova conta
+        public string cadastrarConta( string agenciaNova, string contaNova){
+            return $"Nova conta\nAgencia {agenciaNova}\nConta {contaNova}";
         }
 
-        /// <summary>
-        /// Excluir conta
-        /// </summary>
         public void excluir(){
+            System.Console.WriteLine("cancelado");
         }
     }
 }

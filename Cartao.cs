@@ -2,10 +2,10 @@ namespace Aula13Uber
 {
     public class Cartao
     {
-        private string numero;
-        private string titular;
-        private string bandeira;
-        private string cvv;
+        public string numero;
+        public string titular;
+        public string bandeira;
+        public string cvv;
 
         /// <summary>
         /// Cadastro de um novo cartão
