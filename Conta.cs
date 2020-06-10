@@ -2,8 +2,8 @@ namespace Aula13Uber
 {
     public class Conta
     {
-        private string agencia = "2296-7";
-        private string conta = "7789-2";
+        private string agencia { get;set; }
+        private string conta { get;set; }
 
 
         //Adicionar uma nova conta

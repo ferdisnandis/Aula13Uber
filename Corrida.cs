@@ -4,10 +4,9 @@ namespace Aula13Uber
     {
         public string localInicio;
         public string localChegada;
-        private string statusCorrida = "Iniciada/Finalizada";
-        private string motorista = "Wagner";
-        private string passageiro = "Fernanda";
-
+        private string statusCorrida { get;set; }
+        private string motorista { get;set; }
+        private string passageiro { get;set; }
 
         /// <summary>
         /// Cancelar corrida

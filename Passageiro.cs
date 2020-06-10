@@ -20,7 +20,7 @@ namespace Aula13Uber
         /// <returns>Confirmação de pagamento</returns>
         public string Pagar(string statusCorrida){
 
-            if(statusCorrida == "Finalizada"){
+            if(statusCorrida == "Sim"){
                 return "Pagamento efetuado";
             }else{
                 return"Pagamento pendente pois a corrida não foi finalizada";

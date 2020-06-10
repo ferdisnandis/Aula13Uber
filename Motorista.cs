@@ -2,8 +2,8 @@ namespace Aula13Uber
 {
     public class Motorista : Usuario
     {
-        public string carro;
-        public string placa;
+        public string carro { get;set; }
+        public string placa { get;set; }
 
         /// <summary>
         /// Aceitar corrida

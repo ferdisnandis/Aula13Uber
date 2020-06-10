@@ -41,7 +41,7 @@ namespace Aula13Uber
                 System.Console.WriteLine();
 
                 //Cadastro Cartão
-                System.Console.WriteLine("Selecione o cartão já cadastrado para pagamento: ");
+                System.Console.WriteLine("Cadastre o cartão para pagamento: ");
                 System.Console.WriteLine("Digite o número do cartão: ");
                 cartao.numero = Console.ReadLine();
                 System.Console.WriteLine("Digite a bandeira do cartão: ");
@@ -65,7 +65,7 @@ namespace Aula13Uber
 
                 System.Console.WriteLine();
 
-                System.Console.WriteLine("A corrida foi finalizada?");
+                System.Console.WriteLine("A corrida foi finalizada? Digite Sim para finalizar");
                 string statusCorrida = Console.ReadLine();
 
                 System.Console.WriteLine(passageiro.Pagar(statusCorrida));
